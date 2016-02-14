@@ -1,2 +1,2 @@
 # Ruby
-Ruby exercises
+Ruby exercises from LRTHW
