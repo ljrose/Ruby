@@ -3,7 +3,7 @@ prompt = '> ' #Change the prompt to be a '> '}
 
 puts "Hi #{user_name}"
 puts "I'd like to ask you a few questions."
-puts  "Do you like me #{user_name}? " prompt
+puts  "Do you like me #{user_name}? ", prompt
 likes = $stdin.gets.chomp  
 
 puts "Where do you live #{user_name}? ", prompt
