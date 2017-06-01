@@ -22,6 +22,13 @@ end
 puts "Let's do some math with just functions!"
 
 age = add(30, 5)
+height = subtract(78, 4)
+weight = multiply(90, 2)
+iq = divide(100, 2)
 
-puts "Age: #{age}"
+puts "Age: #{age}, Height: #{height}, Weight: #{weight}, IQ: #{iq}"
+
+what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
+
+puts "That becomes: #{what}. I also did this by hand."
 
